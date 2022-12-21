@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    text-align: center;
+    background-color: #385785a1;
+}
+
+.container-fluid {
+    background-color: #38578544;
+}
+
+.container-fluid img {
+    width: 15%;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #385785a1;
+}
+
+main {
+    background-color: #385785a1;
+}
+
+.card_flex {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+    height: auto;
+    
+}
+
+.card img {
+    width: 100%;
+    padding: 5px;
+}
+
+.card {
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+}
+@media screen and (max-width:900px) {
+    .card_flex {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .card img {
+        width: 100%;
+        padding: 5px;
+    }
+    
+    .card {
+        margin: 5px;
+        padding: 5px;
+        width: 100%;
+    }
+
+    
+}
+@keyframes tracking-in-expand {
+    0% {
+      letter-spacing: -0.5em;
+      opacity: 0;
+    }
+    40% {
+      opacity: 0.6;
+    }
+    100% {
+      opacity: 1;
+    }
+}
+
+.descripcion_p{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    animation: tracking-in-expand 0.7s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+}
+.descripcion_img {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.descripcion_servicio{
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+}
+.producto__servicio{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+footer {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background-color: #38578544;
+    align-items: center;
+}
+.img_footer{
+    width: 20vh;
+}
+.img_footer img{
+    width: 100%;
+}
+.div_footer{
+    width: 20%;
+}
+.nav_footer{
+    width: 100%;
+}
+.nav_footer ul li {
+    margin: 5px;
+}
+.nav_footer li a {
+    color: black;
+}
+.redes_sociales{
+    width: 20%;
+}
+.redes_icon{
+    display: flex;
+}
+.footer_iconos{
+    width: 24px;
+    margin: 7px;
+}
+.footer_p{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+.footer__p{
+    margin: 5px;
+    padding: 3px;
+}
